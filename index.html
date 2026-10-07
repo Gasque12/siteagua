@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoClima Vila Rezende | Soluções para Calor e Chuvas em Piracicaba</title>
+  <meta name="description" content="EcoClima: Análise climática personalizada, venda e instalação de soluções contra calor e excesso de chuvas em casas e comércios na Vila Rezende, Piracicaba/SP.">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="inicio">
+
+  <!-- ==========================================================================
+       Header e Menu de Navegação (Requisito 4)
+       ========================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="#inicio" class="brand-link" aria-label="EcoClima Vila Rezende - Página Inicial">
+        <img src="img/logo-ecoclima.svg" alt="EcoClima Vila Rezende" class="brand-logo" width="220" height="50">
+      </a>
+
+      <!-- Menu Principal de Navegação (Desktop & Mobile) -->
+      <nav class="main-nav" id="main-navigation" aria-label="Navegação principal">
+        <ul class="nav-list" role="list">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#solucoes" class="nav-link">Soluções</a></li>
+          <li><a href="#como-funciona" class="nav-link">Como funciona</a></li>
+          <li><a href="#diferencial" class="nav-link">Nosso diferencial</a></li>
+          <li><a href="#investimento" class="nav-link">Investimento</a></li>
+          <li><a href="#localizacao" class="nav-link">Localização</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botões de Ação do Header (Requisitos 1 e 2) -->
+      <div class="header-actions">
+        <button type="button" class="btn btn-outline btn-sm" data-open-modal="modal-orcamento">
+          📋 Solicitar Orçamento
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-open-modal="modal-agendamento">
+          📅 Agendar Análise
+        </button>
+      </div>
+
+      <!-- Botão Hambúrguer Mobile -->
+      <button type="button" class="mobile-menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="main-navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Fundo escuro ao abrir menu mobile -->
+  <div class="nav-backdrop" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       Seção Hero
+       ========================================================================== -->
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Coluna Textual do Hero -->
+          <div class="hero-content">
+            <div class="hero-badge-pill">
+              <span>📍 Vila Rezende • Piracicaba/SP</span>
+              <span style="color: var(--primary);">•</span>
+              <span>Projeto Integrado</span>
+            </div>
+
+            <h1 class="hero-title">
+              Soluções inteligentes para <span class="highlight-heat">calor</span> e <span class="highlight-rain">chuvas</span> no seu imóvel.
+            </h1>
+
+            <p class="hero-description">
+              Transformando uma necessidade geográfica da Vila Rezende em conforto real: realizamos <strong>análise climática no local</strong>, indicamos os produtos ideais e executamos a <strong>instalação completa com garantia</strong>.
+            </p>
+
+            <!-- Botões de Ação do Hero (Requisitos 1, 2, 5 e 6) -->
+            <div class="hero-actions">
+              <button type="button" class="btn btn-primary btn-lg" data-open-modal="modal-agendamento">
+                📅 Agendar Análise
+              </button>
+              <button type="button" class="btn btn-secondary btn-lg" data-open-modal="modal-orcamento">
+                📋 Solicitar Orçamento
+              </button>
+              <button type="button" class="btn btn-outline btn-lg" data-scroll-to="#solucoes">
+                💧 Conheça as Soluções
+              </button>
+              <button type="button" class="btn btn-outline-dark btn-lg" data-scroll-to="#como-funciona">
+                ⚙️ Como Funciona
+              </button>
+            </div>
+
+            <!-- Badges de Credibilidade -->
+            <div class="hero-badges-list">
+              <div class="hero-badge-item">
+                <div class="hero-badge-icon">☀️</div>
+                <div>
+                  <strong>Conforto Térmico</strong>
+                  <span>Até 80% menos calor</span>
+                </div>
+              </div>
+              <div class="hero-badge-item">
+                <div class="hero-badge-icon">🌧️</div>
+                <div>
+                  <strong>Drenagem Pluvial</strong>
+                  <span>Zero transbordamento</span>
+                </div>
+              </div>
+              <div class="hero-badge-item">
+                <div class="hero-badge-icon">🌱</div>
+                <div>
+                  <strong>Sustentabilidade</strong>
+                  <span>Reúso e biorretenção</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna Visual / Card de Diagnóstico do Hero -->
+          <div class="hero-visual-card">
+            <div class="hero-card-header">
+              <h2 class="hero-card-title">Diagnóstico EcoClima</h2>
+              <span class="hero-card-tag">Metodologia Exclusiva</span>
+            </div>
+
+            <div class="hero-diagnostic-preview">
+              <div class="diagnostic-item">
+                <span class="diagnostic-icon">🌡️</span>
+                <div class="diagnostic-info">
+                  <h4>Insolação e Calor Excessivo</h4>
+                  <p>Mapeamos fachadas com maior carga térmica para indicar películas ou toldos sob medida.</p>
+                </div>
+              </div>
+
+              <div class="diagnostic-item">
+                <span class="diagnostic-icon">🌧️</span>
+                <div class="diagnostic-info">
+                  <h4>Vazão de Águas Pluviais</h4>
+                  <p>Dimensionamos calhas e condutores para o pico de 229 mm de chuva das tempestades de janeiro.</p>
+                </div>
+              </div>
+
+              <div class="diagnostic-item">
+                <span class="diagnostic-icon">💧</span>
+                <div class="diagnostic-info">
+                  <h4>Captação e Drenagem no Solo</h4>
+                  <p>Soluções em cisternas compactas e jardins de chuva para evitar poças e economizar água.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-card-cta">
+              <button type="button" class="btn btn-primary" style="width: 100%;" data-open-modal="modal-agendamento">
+                Solicitar Visita Técnica Gratuita
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Contexto Geográfico de Piracicaba e Vila Rezende
+         ========================================================================== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Análise Geográfica Local</span>
+          <h2 class="section-title">Por que a EcoClima faz sentido na Vila Rezende?</h2>
+          <p class="section-subtitle">
+            Piracicaba apresenta clima tropical de altitude, com forte radiação solar e chuvas intensas concentradas no verão. Entenda os fatores que afetam diretamente as residências e comércios da nossa região.
+          </p>
+        </div>
+
+        <div class="geo-stats-grid">
+          <div class="geo-stat-card">
+            <div class="geo-stat-number">23,9 °C</div>
+            <div class="geo-stat-label">Temperatura Média Anual</div>
+            <div class="geo-stat-desc">Picos severos no verão exigem barreiras solares nas fachadas</div>
+          </div>
+
+          <div class="geo-stat-card">
+            <div class="geo-stat-number">1.273 mm</div>
+            <div class="geo-stat-label">Precipitação Média Anual</div>
+            <div class="geo-stat-desc">Grande volume anual concentrado em tempestades rápidas</div>
+          </div>
+
+          <div class="geo-stat-card">
+            <div class="geo-stat-number">70%</div>
+            <div class="geo-stat-label">Chuvas no Verão</div>
+            <div class="geo-stat-desc">Janeiro registra ~229,5 mm, sobrecarregando calhas urbanas</div>
+          </div>
+
+          <div class="geo-stat-card">
+            <div class="geo-stat-number">~5.000</div>
+            <div class="geo-stat-label">Domicílios no Entorno</div>
+            <div class="geo-stat-desc">Vila Rezende concentra moradores e comércios consolidados</div>
+          </div>
+        </div>
+
+        <!-- Relação Clima x Problema Urbano -->
+        <div class="climate-relation-box">
+          <div class="climate-relation-content">
+            <h3>A oportunidade: transformar problemas climáticos em conforto e segurança</h3>
+            <p>
+              A pavimentação e a rápida ocupação do solo na Vila Rezende dificultam o escoamento natural da água, enquanto a incidência solar eleva a temperatura interna dos imóveis. A EcoClima conecta diagnóstico e execução prática.
+            </p>
+            <button type="button" class="btn btn-light" data-open-modal="modal-agendamento">
+              Agendar Análise do Meu Imóvel
+            </button>
+          </div>
+
+          <div class="climate-columns-grid">
+            <div class="climate-col-card">
+              <h4>☀️ No Verão</h4>
+              <p>Calor intenso somado a chuvas torrenciais: máxima necessidade de proteção solar e direcionamento seguro das águas.</p>
+            </div>
+            <div class="climate-col-card">
+              <h4>🍂 No Inverno</h4>
+              <p>Período seco que valoriza o conforto térmico equilibrado e o uso inteligente da água reservada das chuvas passadas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Seção de Soluções (Requisito 3)
+         ========================================================================== -->
+    <section class="section" id="solucoes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Nossas Soluções</span>
+          <h2 class="section-title">Produtos e Inovação para o seu Imóvel</h2>
+          <p class="section-subtitle">
+            Cada solução foi pensada para resolver os desafios climáticos de Piracicaba. <strong>Clique em qualquer solução abaixo</strong> para ver detalhes técnicos, como funciona e como a EcoClima aplica no seu imóvel.
+          </p>
+        </div>
+
+        <!-- Grid de 6 Soluções Interativas -->
+        <div class="solutions-grid">
+          <!-- 1. Película Térmica -->
+          <article class="solution-card" data-solution-key="pelicula-termica" style="cursor: pointer;">
+            <div class="solution-card-top">
+              <span class="solution-badge badge-heat">☀️ Conforto Térmico</span>
+              <div class="solution-icon-box icon-heat">☀️</div>
+              <h3 class="solution-title">Película térmica</h3>
+              <p class="solution-summary">
+                Redução imediata da entrada de calor solar e 99% de bloqueio dos raios UV sem escurecer excessivamente seus ambientes.
+              </p>
+              <div class="solution-highlight-pill">
+                <span>🛡️ Reduz até 80% do calor por radiação</span>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <button type="button" class="btn-solution-details" data-solution-key="pelicula-termica">
+                <span>🔎 Ver Detalhes Completos</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- 2. Toldos -->
+          <article class="solution-card" data-solution-key="toldos" style="cursor: pointer;">
+            <div class="solution-card-top">
+              <span class="solution-badge badge-heat">⛱️ Sombra & Proteção</span>
+              <div class="solution-icon-box icon-heat">⛱️</div>
+              <h3 class="solution-title">Toldos</h3>
+              <p class="solution-summary">
+                Proteção solar e barreira física exterior para vitrines de lojas, varandas residenciais e garagens na Vila Rezende.
+              </p>
+              <div class="solution-highlight-pill">
+                <span>📐 Modelos retráteis e fixos sob medida</span>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <button type="button" class="btn-solution-details" data-solution-key="toldos">
+                <span>🔎 Ver Detalhes Completos</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- 3. Calhas -->
+          <article class="solution-card" data-solution-key="calhas" style="cursor: pointer;">
+            <div class="solution-card-top">
+              <span class="solution-badge badge-rain">🌧️ Drenagem Pluvial</span>
+              <div class="solution-icon-box icon-rain">🌧️</div>
+              <h3 class="solution-title">Calhas</h3>
+              <p class="solution-summary">
+                Direcionamento eficiente de grandes volumes de chuva das coberturas, evitando infiltrações, umidade e goteiras.
+              </p>
+              <div class="solution-highlight-pill">
+                <span>⚡ Dimensionamento para os 229 mm de janeiro</span>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <button type="button" class="btn-solution-details" data-solution-key="calhas">
+                <span>🔎 Ver Detalhes Completos</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- 4. Captação de chuva -->
+          <article class="solution-card" data-solution-key="captacao-chuva" style="cursor: pointer;">
+            <div class="solution-card-top">
+              <span class="solution-badge badge-rain">💧 Reúso de Água</span>
+              <div class="solution-icon-box icon-rain">💧</div>
+              <h3 class="solution-title">Captação de chuva</h3>
+              <p class="solution-summary">
+                Cisternas verticais modulares com filtro de descarte de primeiras águas para lavagem de calçadas e rega de plantas.
+              </p>
+              <div class="solution-highlight-pill">
+                <span>🌿 Economia real na conta de água</span>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <button type="button" class="btn-solution-details" data-solution-key="captacao-chuva">
+                <span>🔎 Ver Detalhes Completos</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- 5. Jardim de chuva -->
+          <article class="solution-card" data-solution-key="jardim-chuva" style="cursor: pointer;">
+            <div class="solution-card-top">
+              <span class="solution-badge badge-eco">🌱 Biorretenção Permeável</span>
+              <div class="solution-icon-box icon-eco">🌱</div>
+              <h3 class="solution-title">Jardim de chuva</h3>
+              <p class="solution-summary">
+                Microbacias de infiltração com solo técnico e vegetação adaptada para reter a água da chuva no próprio lote urbano.
+              </p>
+              <div class="solution-highlight-pill">
+                <span>🌊 Elimina poças e alagamentos no quintal</span>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <button type="button" class="btn-solution-details" data-solution-key="jardim-chuva">
+                <span>🔎 Ver Detalhes Completos</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- 6. Análise Climática -->
+          <article class="solution-card" data-solution-key="analise-climatica" style="cursor: pointer;">
+            <div class="solution-card-top">
+              <span class="solution-badge badge-eco">⭐ Nosso Carro-Chefe</span>
+              <div class="solution-icon-box icon-eco">🔎</div>
+              <h3 class="solution-title">Análise Climática</h3>
+              <p class="solution-summary">
+                Vistoria presencial completa com termografia e estudo do escoamento da água antes de qualquer compra ou obra.
+              </p>
+              <div class="solution-highlight-pill">
+                <span>🎯 Diagnóstico exato da causa raiz</span>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <button type="button" class="btn-solution-details" data-solution-key="analise-climatica">
+                <span>🔎 Ver Detalhes Completos</span>
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <!-- Banner com Chamada para Ação -->
+        <div class="solutions-banner-cta">
+          <div class="solutions-banner-text">
+            <h3>Não tem certeza de qual solução seu imóvel precisa?</h3>
+            <p>Nossa equipe realiza uma análise climática gratuita para identificar se o seu caso pede controle solar, calhas reforçadas ou captação.</p>
+          </div>
+          <div class="solutions-banner-buttons">
+            <button type="button" class="btn btn-primary" data-open-modal="modal-agendamento">
+              Agendar Análise
+            </button>
+            <button type="button" class="btn btn-outline" data-open-modal="modal-orcamento">
+              Solicitar Orçamento
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Seção Como Funciona (Requisito 4 & 6)
+         ========================================================================== -->
+    <section class="section section-alt" id="como-funciona">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Fluxo Operacional</span>
+          <h2 class="section-title">Como a EcoClima Funciona</h2>
+          <p class="section-subtitle">
+            Da primeira conversa até o acompanhamento nas chuvas e no calor. Um processo em 6 etapas transparente, profissional e sem complicações.
+          </p>
+        </div>
+
+        <!-- Timeline de 6 Etapas -->
+        <div class="timeline-flow">
+          <div class="timeline-step">
+            <div class="step-number">1</div>
+            <div class="step-icon">💬</div>
+            <h3 class="step-title">Contato</h3>
+            <p class="step-desc">Você entra em contato pelo formulário no site, WhatsApp ou visita nossa loja na Av. Manoel Conceição.</p>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-number">2</div>
+            <div class="step-icon">🚗</div>
+            <h3 class="step-title">Visita</h3>
+            <p class="step-desc">Nossa equipe técnica vai até o seu imóvel em Piracicaba no dia e horário agendados.</p>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-number">3</div>
+            <div class="step-icon">🔬</div>
+            <h3 class="step-title">Análise</h3>
+            <p class="step-desc">Avaliamos a orientação do sol, pontos críticos de calor, caimento de telhados e acúmulo de águas pluviais.</p>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-number">4</div>
+            <div class="step-icon">📝</div>
+            <h3 class="step-title">Orçamento</h3>
+            <p class="step-desc">Elaboramos uma proposta personalizada com os produtos ideais e opções escaláveis para seu orçamento.</p>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-number">5</div>
+            <div class="step-icon">🛠️</div>
+            <h3 class="step-title">Instalação</h3>
+            <p class="step-desc">Nossa própria equipe qualificada executa o serviço com limpeza, materiais de alta linha e pontualidade.</p>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-number">6</div>
+            <div class="step-icon">🤝</div>
+            <h3 class="step-title">Pós-venda</h3>
+            <p class="step-desc">Acompanhamos o resultado nas primeiras tempestades e no pico do verão para atestar sua total satisfação.</p>
+          </div>
+        </div>
+
+        <div class="timeline-cta-box">
+          <button type="button" class="btn btn-primary btn-lg" data-open-modal="modal-agendamento">
+            Iniciar com o Agendamento de Análise
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Seção Nosso Diferencial (Requisito 4)
+         ========================================================================== -->
+    <section class="section" id="diferencial">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Análise Climática Personalizada</span>
+          <h2 class="section-title">O Que Nos Torna Diferentes dos Concorrentes</h2>
+          <p class="section-subtitle">
+            Na Vila Rezende existem lojas tradicionais de materiais de construção (Comercial Rezende, Monteiro, Alberoni, Santo Antonio). Mas nenhuma delas oferece diagnóstico técnico com instalação integrada.
+          </p>
+        </div>
+
+        <!-- Comparativo de Modelos -->
+        <div class="diferencial-wrapper">
+          <div class="diff-card diff-card-concorrentes">
+            <div class="diff-header">
+              <h3>Lojas Convencionais de Materiais</h3>
+              <p style="color: #6B7280; font-size: 0.9rem;">Foco exclusivo na venda balcão de peças avulsas</p>
+            </div>
+            <ul class="diff-list">
+              <li class="diff-item">
+                <span class="diff-item-icon">✕</span>
+                <span>Apenas vendem calhas, telhas ou películas na prateleira sem entender o local</span>
+              </li>
+              <li class="diff-item">
+                <span class="diff-item-icon">✕</span>
+                <span>O próprio cliente precisa calcular declividade e vazão de água (alto risco de erro)</span>
+              </li>
+              <li class="diff-item">
+                <span class="diff-item-icon">✕</span>
+                <span>Não medem a insolação térmica nem calculam a perda de temperatura</span>
+              </li>
+              <li class="diff-item">
+                <span class="diff-item-icon">✕</span>
+                <span>Cliente precisa procurar pedreiro ou instalador terceirizado por conta própria</span>
+              </li>
+              <li class="diff-item">
+                <span class="diff-item-icon">✕</span>
+                <span>Sem garantia integrada: se a calha vazar, a loja culpa o instalador</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="diff-card diff-card-ecoclima">
+            <div class="diff-header">
+              <h3>EcoClima Vila Rezende</h3>
+              <p style="color: #B9EBE5; font-size: 0.9rem;">Diagnóstico + Venda + Instalação Especializada</p>
+            </div>
+            <ul class="diff-list">
+              <li class="diff-item">
+                <span class="diff-item-icon">✓</span>
+                <span><strong>Análise climática in-loco:</strong> medição de calor, radiação UV e fluxo de chuvas</span>
+              </li>
+              <li class="diff-item">
+                <span class="diff-item-icon">✓</span>
+                <span><strong>Solução sob medida:</strong> produtos dimensionados para a arquitetura do seu imóvel</span>
+              </li>
+              <li class="diff-item">
+                <span class="diff-item-icon">✓</span>
+                <span><strong>Orçamento claro e escalável:</strong> você escolhe as prioridades que cabem no bolso</span>
+              </li>
+              <li class="diff-item">
+                <span class="diff-item-icon">✓</span>
+                <span><strong>Mão de obra própria qualificada:</strong> garantia única de material e instalação</span>
+              </li>
+              <li class="diff-item">
+                <span class="diff-item-icon">✓</span>
+                <span><strong>Pós-venda atuante:</strong> checagem prática após as primeiras chuvas de verão</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Seletor Interativo de Problemas -->
+        <div class="interactive-problem-selector">
+          <div class="selector-header">
+            <h3>Simulador Rápido: Qual é o principal desafio do seu imóvel?</h3>
+            <p style="color: var(--text-secondary); font-size: 0.92rem;">
+              Clique em um dos problemas abaixo para ver a recomendação técnica da EcoClima:
+            </p>
+          </div>
+
+          <div class="problem-buttons-bar">
+            <button type="button" class="btn-problem-tab is-selected" data-problem-preset="calor-janela">
+              ☀️ Calor e Sol Forte nas Janelas
+            </button>
+            <button type="button" class="btn-problem-tab" data-problem-preset="calhas-transbordando">
+              🌧️ Calha Transbordando na Chuva
+            </button>
+            <button type="button" class="btn-problem-tab" data-problem-preset="patio-alagado">
+              🌊 Pátio / Quintal com Poças e Alagamento
+            </button>
+            <button type="button" class="btn-problem-tab" data-problem-preset="reduzir-conta">
+              💧 Quero Reusar Água e Reduzir Custos
+            </button>
+            <button type="button" class="btn-problem-tab" data-problem-preset="completo">
+              🔍 Preciso de um Diagnóstico Completo
+            </button>
+          </div>
+
+          <div class="problem-recommendation-box">
+            <div class="recommendation-info">
+              <span style="font-size: 0.78rem; font-weight: 800; color: var(--primary); text-transform: uppercase;">Solução Recomendada</span>
+              <h4 id="recommendation-title">Película Térmica Nanocerâmica + Toldos Articulados</h4>
+              <p id="recommendation-desc">Bloqueio de 80% do calor antes de aquecer paredes e vidros, reduzindo ar-condicionado.</p>
+            </div>
+            <button type="button" class="btn btn-primary" id="recommendation-action-btn">
+              Solicitar Orçamento Desta Solução
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Seção Investimento de R$ 40.000 (Requisito 4)
+         ========================================================================== -->
+    <section class="section section-alt" id="investimento">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Planejamento Financeiro</span>
+          <h2 class="section-title">Investimento Inicial: R$ 40.000</h2>
+          <p class="section-subtitle">
+            Alocação transparente e responsável do capital inicial para a unidade Vila Rezende. Inclui aluguel comercial, caução, reforma do ponto, estoque inicial e reserva de emergência.
+          </p>
+        </div>
+
+        <!-- Bloco Resumo do Investimento -->
+        <div class="budget-summary-header">
+          <div class="budget-total-block">
+            <div class="budget-total-label">Total Planejado</div>
+            <div class="budget-total-amount">R$ 40.000,00</div>
+            <div class="budget-total-caption">100% alocado com reserva de contingência</div>
+          </div>
+
+          <div class="budget-progress-strip">
+            <div class="budget-bar-labels">
+              <span>Equipamentos e Estoque: 50%</span>
+              <span>Ponto & Fachada: 22,4%</span>
+              <span>Giro & Reserva: 27,6%</span>
+            </div>
+            <div class="budget-segmented-bar" title="Distribuição do Capital">
+              <div class="segment seg-equip" style="width: 15%;" title="Ferramentas (15%)"></div>
+              <div class="segment seg-stock" style="width: 35%;" title="Estoque e Materiais (35%)"></div>
+              <div class="segment seg-point" style="width: 22.4%;" title="Adequação e Aluguel (22.4%)"></div>
+              <div class="segment seg-admin" style="width: 17.5%;" title="Giro, TI e Marketing (17.5%)"></div>
+              <div class="segment seg-reserve" style="width: 8.86%;" title="Reserva de Emergência (8.86%)"></div>
+            </div>
+          </div>
+
+          <div>
+            <button type="button" class="btn btn-outline" data-open-modal="modal-orcamento">
+              Simular Custo de Solução
+            </button>
+          </div>
+        </div>
+
+        <!-- Filtros Interativos das Despesas -->
+        <div class="budget-filter-pills">
+          <button type="button" class="btn-filter-pill is-active" data-budget-filter="todos">
+            Todos os 11 Itens (R$ 40.000)
+          </button>
+          <button type="button" class="btn-filter-pill" data-budget-filter="operacao">
+            Ferramentas & Estoque (R$ 20.000)
+          </button>
+          <button type="button" class="btn-filter-pill" data-budget-filter="ponto">
+            Ponto, Aluguel & Fachada (R$ 8.956,72)
+          </button>
+          <button type="button" class="btn-filter-pill" data-budget-filter="giro">
+            Giro, TI & Reserva (R$ 11.043,28)
+          </button>
+        </div>
+
+        <!-- Grid de Itens do Investimento (Slide 8) -->
+        <div class="budget-items-grid">
+          <!-- 1. Ferramentas -->
+          <div class="budget-item-card" data-category="operacao">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Ferramentas e equipamentos</span>
+              <span class="budget-item-pct">15,0%</span>
+            </div>
+            <div class="budget-item-value">R$ 6.000,00</div>
+            <p class="budget-item-desc">Escadas, furadeiras, rebitadeiras profissionais, sopradores térmicos e kits de aplicação estanque.</p>
+          </div>
+
+          <!-- 2. Estoque calhas -->
+          <div class="budget-item-card" data-category="operacao">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Estoque de calhas / componentes</span>
+              <span class="budget-item-pct">12,5%</span>
+            </div>
+            <div class="budget-item-value">R$ 5.000,00</div>
+            <p class="budget-item-desc">Chapas galvanizadas, perfis de alumínio, condutores pluviais, suportes, curvas e selantes PU.</p>
+          </div>
+
+          <!-- 3. Películas e toldos -->
+          <div class="budget-item-card" data-category="operacao">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Películas / telas / toldos</span>
+              <span class="budget-item-pct">12,5%</span>
+            </div>
+            <div class="budget-item-value">R$ 5.000,00</div>
+            <p class="budget-item-desc">Bobinas de filme nanocerâmico, lonas sintéticas marítimas e ferragens articuladas para pronta entrega.</p>
+          </div>
+
+          <!-- 4. Materiais captação -->
+          <div class="budget-item-card" data-category="operacao">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Materiais de captação de chuva</span>
+              <span class="budget-item-pct">10,0%</span>
+            </div>
+            <div class="budget-item-value">R$ 4.000,00</div>
+            <p class="budget-item-desc">Módulos verticais de cisterna urbana, filtros descarte first-flush, grades anti-dengue e tubulações PVC.</p>
+          </div>
+
+          <!-- 5. Adequação do ponto -->
+          <div class="budget-item-card" data-category="ponto">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Adequação do ponto comercial</span>
+              <span class="budget-item-pct">8,75%</span>
+            </div>
+            <div class="budget-item-value">R$ 3.500,00</div>
+            <p class="budget-item-desc">Pintura interna, bancada de atendimento, iluminação LED e área de demonstração das soluções.</p>
+          </div>
+
+          <!-- 6. Computador e sistema -->
+          <div class="budget-item-card" data-category="giro">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Computador / sistema de gestão</span>
+              <span class="budget-item-pct">5,0%</span>
+            </div>
+            <div class="budget-item-value">R$ 2.000,00</div>
+            <p class="budget-item-desc">Equipamento para emissão de orçamentos, controle de estoque de peças e cadastro de visitas técnicas.</p>
+          </div>
+
+          <!-- 7. Fachada e identidade -->
+          <div class="budget-item-card" data-category="ponto">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Fachada / identidade visual</span>
+              <span class="budget-item-pct">3,75%</span>
+            </div>
+            <div class="budget-item-value">R$ 1.500,00</div>
+            <p class="budget-item-desc">Painel externo em lona com iluminação na Av. Manoel Conceição e adesivação da vitrine da loja.</p>
+          </div>
+
+          <!-- 8. Marketing inicial -->
+          <div class="budget-item-card" data-category="giro">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Marketing inicial</span>
+              <span class="budget-item-pct">3,75%</span>
+            </div>
+            <div class="budget-item-value">R$ 1.500,00</div>
+            <p class="budget-item-desc">Panfletagem orientada na Vila Rezende, tráfego geolocalizado no Instagram e divulgação comércios locais.</p>
+          </div>
+
+          <!-- 9. Aluguel, caução e IPTU -->
+          <div class="budget-item-card" data-category="ponto">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Aluguel + caução + IPTU inicial</span>
+              <span class="budget-item-pct">4,89%</span>
+            </div>
+            <div class="budget-item-value">R$ 1.956,72</div>
+            <p class="budget-item-desc">Primeiro mês de locação e encargos conforme valor real do anúncio comercial na Vila Rezende.</p>
+          </div>
+
+          <!-- 10. Capital de giro -->
+          <div class="budget-item-card" data-category="giro">
+            <div class="budget-item-header">
+              <span class="budget-item-name">Capital de giro operacional</span>
+              <span class="budget-item-pct">12,5%</span>
+            </div>
+            <div class="budget-item-value">R$ 5.000,00</div>
+            <p class="budget-item-desc">Fundo de sustentação para os 3 primeiros meses de operação cobrindo água, luz e reposição contínua.</p>
+          </div>
+
+          <!-- 11. Reserva de emergência (Destaque do slide) -->
+          <div class="budget-item-card is-highlight" data-category="giro">
+            <div class="budget-item-header">
+              <span class="budget-item-name">🚨 Reserva de emergência</span>
+              <span class="budget-item-pct" style="background: #DCFCE7; color: #15803D;">8,86%</span>
+            </div>
+            <div class="budget-item-value" style="color: #15803D;">R$ 3.543,28</div>
+            <p class="budget-item-desc">Fundo de segurança preservado especificamente para imprevistos e oscilações nos primeiros meses.</p>
+          </div>
+        </div>
+
+        <div class="budget-emergency-note">
+          <span style="font-size: 1.5rem;">💡</span>
+          <div>
+            <strong>Gestão Financeira Responsável:</strong>
+            A inclusão da reserva de emergência (R$ 3.543,28) e do capital de giro (R$ 5.000,00) garante que a EcoClima inicie com saúde de caixa, sem risco de desabastecimento ou atraso na entrega das obras.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Seção Localização: Vila Rezende (Requisito 4)
+         ========================================================================== -->
+    <section class="section" id="localizacao">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Ponto Comercial Estratégico</span>
+          <h2 class="section-title">Localização: Vila Rezende, Piracicaba</h2>
+          <p class="section-subtitle">
+            Instalada no principal eixo comercial do bairro, na Avenida Manoel Conceição, garantindo conveniência, visibilidade e acesso rápido para toda Piracicaba.
+          </p>
+        </div>
+
+        <div class="location-grid">
+          <!-- Coluna 1: Informações do Ponto -->
+          <div class="location-info-card">
+            <h3>Nossa Loja & Centro de Atendimento</h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">
+              Um espaço pensado não apenas para vender materiais, mas para receber clientes, realizar demonstrações e simular laudos climáticos.
+            </p>
+
+            <ul class="location-details-list">
+              <li class="loc-item">
+                <div class="loc-icon">📍</div>
+                <div>
+                  <strong>Endereço Estratégico</strong>
+                  <p>Avenida Manoel Conceição, Vila Rezende — Piracicaba/SP</p>
+                </div>
+              </li>
+              <li class="loc-item">
+                <div class="loc-icon">🚗</div>
+                <div>
+                  <strong>Acesso e Estacionamento</strong>
+                  <p>Fácil parada na via, próximo ao comércio consolidado e linhas de transporte.</p>
+                </div>
+              </li>
+              <li class="loc-item">
+                <div class="loc-icon">🕒</div>
+                <div>
+                  <strong>Horário de Funcionamento</strong>
+                  <p>Segunda a Sexta: 08h às 18h | Sábados: 08h às 12h</p>
+                </div>
+              </li>
+              <li class="loc-item">
+                <div class="loc-icon">📞</div>
+                <div>
+                  <strong>Atendimento Direto</strong>
+                  <p>(19) 3400-0000 | contato@ecoclimarezende.com.br</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="location-actions">
+              <button type="button" class="btn btn-primary" data-open-modal="modal-agendamento">
+                Agendar Visita no Showroom
+              </button>
+              <button type="button" class="btn btn-outline" data-open-modal="modal-orcamento">
+                Solicitar Contato do Ponto
+              </button>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Comparador Visual "Antes e Depois" Real da Apresentação -->
+          <div class="before-after-container">
+            <div class="before-after-header">
+              <h4>A Locação: Antes e Depois</h4>
+              <!-- Alternador Interativo de Visualização -->
+              <div class="view-toggle-buttons">
+                <button type="button" class="btn-view-toggle is-active" id="btn-view-after">
+                  Depois (EcoClima)
+                </button>
+                <button type="button" class="btn-view-toggle" id="btn-view-before">
+                  Antes (Imóvel Real)
+                </button>
+              </div>
+            </div>
+
+            <!-- Moldura da Imagem -->
+            <div class="before-after-frame">
+              <img src="img/ecoclima_imovel_depois.jpg" alt="Simulação da proposta de loja da EcoClima na Vila Rezende" class="view-image view-after">
+              <img src="img/ecoclima_imovel_antes.jpg" alt="Foto original do imóvel comercial no anúncio" class="view-image view-before">
+              <div class="before-after-badge-overlay">PROPOSTA ECOCLIMA (DEPOIS)</div>
+            </div>
+
+            <p class="before-after-caption">
+              O espaço real do anúncio na Av. Manoel Conceição transformado no showroom EcoClima: atendimento, estoque e sala de análise climática.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Rodapé Oficial do Site
+       ========================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Coluna Marca e Contexto -->
+        <div class="footer-brand-col">
+          <img src="img/logo-ecoclima.svg" alt="EcoClima" style="filter: brightness(0) invert(1); height: 42px; margin-bottom: 14px;">
+          <p>
+            Soluções personalizadas para calor e chuvas. Análise climática, venda e instalação especializada na Vila Rezende e Piracicaba.
+          </p>
+          <div class="footer-school-pill">
+            <span>🎓 Projeto Escolar / Acadêmico Integrado</span>
+          </div>
+        </div>
+
+        <!-- Coluna Navegação -->
+        <div class="footer-col">
+          <h4>Navegação Rápida</h4>
+          <ul class="footer-links-list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#como-funciona">Como funciona</a></li>
+            <li><a href="#diferencial">Nosso diferencial</a></li>
+            <li><a href="#investimento">Investimento R$ 40.000</a></li>
+            <li><a href="#localizacao">Localização Vila Rezende</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna Soluções -->
+        <div class="footer-col">
+          <h4>Soluções Oferecidas</h4>
+          <ul class="footer-links-list">
+            <li><a href="#solucoes" data-solution-key="pelicula-termica">Película térmica</a></li>
+            <li><a href="#solucoes" data-solution-key="toldos">Toldos e coberturas</a></li>
+            <li><a href="#solucoes" data-solution-key="calhas">Calhas e rufos</a></li>
+            <li><a href="#solucoes" data-solution-key="captacao-chuva">Captação de chuva</a></li>
+            <li><a href="#solucoes" data-solution-key="jardim-chuva">Jardim de chuva</a></li>
+            <li><a href="#solucoes" data-solution-key="analise-climatica">Análise Climática</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna Contato & Atendimento -->
+        <div class="footer-col">
+          <h4>Atendimento Vila Rezende</h4>
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>Av. Manoel Conceição, Vila Rezende, Piracicaba/SP</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>⏰</span>
+            <span>Seg a Sex: 08h - 18h | Sáb: 08h - 12h</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>📱</span>
+            <span>(19) 3400-0000 / WhatsApp</span>
+          </div>
+          <div style="margin-top: 14px;">
+            <button type="button" class="btn btn-outline-dark btn-sm" style="border-color: #B9EBE5; color: #B9EBE5;" data-open-modal="modal-agendamento">
+              Agendar Visita Agora
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 EcoClima Vila Rezende • Piracicaba/SP. Todos os direitos reservados.
+        </div>
+        <div>
+          Desenvolvido com foco em adaptação urbana sustentável e conforto térmico.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Botão Voltar ao Topo (Requisito 7)
+       ========================================================================== -->
+  <button type="button" class="back-to-top-btn" aria-label="Voltar ao topo da página" title="Voltar ao Topo">
+    ↑
+  </button>
+
+  <!-- Botão Flutuante de Agendamento Rápido no Canto Inferior -->
+  <button type="button" class="floating-agenda-btn" data-open-modal="modal-agendamento" title="Agendar Análise Gratuita">
+    <span>📅</span>
+    <span>Agendar Análise</span>
+  </button>
+
+  <!-- ==========================================================================
+       BACKDROP UNIFICADO DE MODAIS
+       ========================================================================== -->
+  <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+
+    <!-- ==========================================================================
+         1. MODAL DE AGENDAMENTO DE ANÁLISE (Requisito 1)
+         ========================================================================== -->
+    <div class="modal-dialog" id="modal-agendamento" style="display: none;" role="document">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>Agendar Análise Climática</h3>
+          <p>Visita técnica sem compromisso no seu imóvel na Vila Rezende</p>
+        </div>
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="Fechar janela">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Formulário Ativo -->
+        <form id="form-agendamento" class="form-grid" novalidate>
+          <!-- Nome -->
+          <div class="form-group">
+            <label for="nome" class="form-label">
+              <span>Nome completo</span>
+              <span class="required-mark">*</span>
+            </label>
+            <input type="text" id="nome" name="nome" class="form-control" placeholder="Ex.: Mariana Silva" required autocomplete="name">
+          </div>
+
+          <!-- Contato -->
+          <div class="form-group">
+            <label for="contato" class="form-label">
+              <span>E-mail ou telefone / WhatsApp</span>
+              <span class="required-mark">*</span>
+            </label>
+            <input type="text" id="contato" name="contato" class="form-control" placeholder="Ex.: (19) 99876-5432 ou mariana@email.com" required autocomplete="tel">
+          </div>
+
+          <!-- Linha Dupla: Tipo de Imóvel e Principal Problema -->
+          <div class="form-row-2">
+            <!-- Tipo de imóvel -->
+            <div class="form-group">
+              <label for="tipo_imovel" class="form-label">
+                <span>Tipo de imóvel</span>
+                <span class="required-mark">*</span>
+              </label>
+              <select id="tipo_imovel" name="tipo_imovel" class="form-control" required>
+                <option value="">Selecione uma opção...</option>
+                <option value="Casa">Casa</option>
+                <option value="Apartamento">Apartamento</option>
+                <option value="Comércio">Comércio</option>
+                <option value="Condomínio">Condomínio</option>
+                <option value="Outro">Outro</option>
+              </select>
+            </div>
+
+            <!-- Principal problema -->
+            <div class="form-group">
+              <label for="principal_problema" class="form-label">
+                <span>Principal problema</span>
+                <span class="required-mark">*</span>
+              </label>
+              <select id="principal_problema" name="principal_problema" class="form-control" required>
+                <option value="">Selecione o problema...</option>
+                <option value="Calor">Calor</option>
+                <option value="Excesso de sol">Excesso de sol</option>
+                <option value="Água da chuva">Água da chuva</option>
+                <option value="Acúmulo de água">Acúmulo de água</option>
+                <option value="Quero uma análise completa">Quero uma análise completa</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Linha Dupla: Data e Horário -->
+          <div class="form-row-2">
+            <!-- Data de preferência -->
+            <div class="form-group">
+              <label for="data_preferencia" class="form-label">
+                <span>Data de preferência</span>
+                <span class="required-mark">*</span>
+              </label>
+              <input type="date" id="data_preferencia" name="data_preferencia" class="form-control" required>
+            </div>
+
+            <!-- Horário de preferência -->
+            <div class="form-group">
+              <label for="horario_preferencia" class="form-label">
+                <span>Horário de preferência</span>
+                <span class="required-mark">*</span>
+              </label>
+              <select id="horario_preferencia" name="horario_preferencia" class="form-control" required>
+                <option value="">Selecione o turno...</option>
+                <option value="Manhã (08h às 12h)">Manhã (08h às 12h)</option>
+                <option value="Tarde (13h às 17h)">Tarde (13h às 17h)</option>
+                <option value="Final da Tarde (17h às 19h)">Final da Tarde (17h às 19h)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Observações -->
+          <div class="form-group">
+            <label for="observacoes" class="form-label">
+              <span>Observações (opcional)</span>
+            </label>
+            <textarea id="observacoes" name="observacoes" class="form-control" placeholder="Conte detalhes sobre a insolação da fachada, altura do telhado, pontos de infiltração, etc."></textarea>
+          </div>
+
+          <!-- Botão de Envio e Nota -->
+          <div class="form-footer-action">
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              Solicitar análise
+            </button>
+            <p class="form-legal-note">
+              🔒 Seus dados serão utilizados apenas para agendamento da visita pela equipe EcoClima.
+            </p>
+          </div>
+        </form>
+
+        <!-- Confirmação Visual de Sucesso (Requisito 1) -->
+        <div id="success-agendamento" class="form-success-card">
+          <div class="success-icon-wrap">✓</div>
+          <h4 class="success-title">Solicitação recebida!</h4>
+          <p class="success-message">
+            A <strong>EcoClima</strong> entrará em contato para confirmar a visita.
+          </p>
+
+          <div class="success-summary-box">
+            <div class="summary-row">
+              <span class="summary-label">Protocolo:</span>
+              <span class="summary-value" id="agendamento-sum-protocol">ECO-000000</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Nome:</span>
+              <span class="summary-value" id="agendamento-sum-nome">-</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Contato:</span>
+              <span class="summary-value" id="agendamento-sum-contato">-</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Tipo de Imóvel:</span>
+              <span class="summary-value" id="agendamento-sum-imovel">-</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Problema Relatado:</span>
+              <span class="summary-value" id="agendamento-sum-problema">-</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Data e Turno:</span>
+              <span class="summary-value" id="agendamento-sum-datahora">-</span>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; justify-content: center;">
+            <button type="button" class="btn btn-outline" id="btn-novo-agendamento">
+              Novo Agendamento
+            </button>
+            <button type="button" class="btn btn-primary" data-close-modal>
+              Concluir e Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         2. MODAL DE SOLICITAÇÃO DE ORÇAMENTO (Requisito 2)
+         ========================================================================== -->
+    <div class="modal-dialog" id="modal-orcamento" style="display: none;" role="document">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>Solicitar Orçamento</h3>
+          <p>Envie os dados do seu imóvel para uma estimativa rápida e detalhada</p>
+        </div>
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="Fechar janela">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Formulário Ativo -->
+        <form id="form-orcamento" class="form-grid" novalidate>
+          <!-- Nome -->
+          <div class="form-group">
+            <label for="orc_nome" class="form-label">
+              <span>Nome completo</span>
+              <span class="required-mark">*</span>
+            </label>
+            <input type="text" id="orc_nome" name="orc_nome" class="form-control" placeholder="Ex.: Carlos Mendes" required autocomplete="name">
+          </div>
+
+          <!-- Linha Dupla: Tipo de Imóvel e Solução de Interesse -->
+          <div class="form-row-2">
+            <!-- Tipo de imóvel -->
+            <div class="form-group">
+              <label for="orc_tipo_imovel" class="form-label">
+                <span>Tipo de imóvel</span>
+                <span class="required-mark">*</span>
+              </label>
+              <select id="orc_tipo_imovel" name="orc_tipo_imovel" class="form-control" required>
+                <option value="">Selecione o imóvel...</option>
+                <option value="Casa">Casa</option>
+                <option value="Apartamento">Apartamento</option>
+                <option value="Comércio">Comércio</option>
+                <option value="Condomínio">Condomínio</option>
+                <option value="Outro">Outro</option>
+              </select>
+            </div>
+
+            <!-- Solução de interesse -->
+            <div class="form-group">
+              <label for="orc_solucao" class="form-label">
+                <span>Solução de interesse</span>
+                <span class="required-mark">*</span>
+              </label>
+              <select id="orc_solucao" name="orc_solucao" class="form-control" required>
+                <option value="">Selecione a solução...</option>
+                <option value="Película térmica">Película térmica</option>
+                <option value="Toldos e Coberturas">Toldos e Coberturas</option>
+                <option value="Calhas e Rufos Pluviais">Calhas e Rufos Pluviais</option>
+                <option value="Captação de Chuva (Cisternas Urbanas)">Captação de Chuva (Cisternas Urbanas)</option>
+                <option value="Jardim de Chuva (Biorretenção)">Jardim de Chuva (Biorretenção)</option>
+                <option value="Análise Climática Personalizada">Análise Climática Personalizada</option>
+                <option value="Combinação de Soluções">Combinação de Soluções</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Telefone / E-mail -->
+          <div class="form-group">
+            <label for="orc_contato" class="form-label">
+              <span>Telefone / WhatsApp ou E-mail</span>
+              <span class="required-mark">*</span>
+            </label>
+            <input type="text" id="orc_contato" name="orc_contato" class="form-control" placeholder="Ex.: (19) 98765-4321 ou carlos@empresa.com.br" required autocomplete="tel">
+          </div>
+
+          <!-- Descrição do problema -->
+          <div class="form-group">
+            <label for="orc_descricao" class="form-label">
+              <span>Descrição do problema</span>
+              <span class="required-mark">*</span>
+            </label>
+            <textarea id="orc_descricao" name="orc_descricao" class="form-control" placeholder="Descreva medidas aproximadas, cômodos afetados ou o objetivo principal (Ex: 'Preciso cobrir uma vitrine de 4 metros na Av. Conceição que esquenta muito à tarde')." required></textarea>
+          </div>
+
+          <!-- Botão de Envio -->
+          <div class="form-footer-action">
+            <button type="submit" class="btn btn-secondary btn-lg" style="width: 100%;">
+              Enviar Solicitação de Orçamento
+            </button>
+            <p class="form-legal-note">
+              Resposta técnica em até 24h com opção de visita para medição exata.
+            </p>
+          </div>
+        </form>
+
+        <!-- Confirmação Visual de Sucesso (Requisito 2) -->
+        <div id="success-orcamento" class="form-success-card">
+          <div class="success-icon-wrap">📋</div>
+          <h4 class="success-title">Orçamento Solicitado!</h4>
+          <p class="success-message">
+            Recebemos os detalhes do seu imóvel. A equipe comercial da EcoClima na Vila Rezende entrará em contato para apresentar sua estimativa personalizada.
+          </p>
+
+          <div class="success-summary-box">
+            <div class="summary-row">
+              <span class="summary-label">Protocolo:</span>
+              <span class="summary-value" id="orc-sum-protocol">ORC-000000</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Solicitante:</span>
+              <span class="summary-value" id="orc-sum-nome">-</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Solução:</span>
+              <span class="summary-value" id="orc-sum-solucao">-</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Contato:</span>
+              <span class="summary-value" id="orc-sum-contato">-</span>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; justify-content: center;">
+            <button type="button" class="btn btn-outline" id="btn-novo-orcamento">
+              Novo Orçamento
+            </button>
+            <button type="button" class="btn btn-primary" data-close-modal>
+              Concluir e Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         3. MODAL DINÂMICO DE DETALHES DA SOLUÇÃO (Requisito 3)
+         ========================================================================== -->
+    <div class="modal-dialog modal-dialog-large" id="modal-solucao" style="display: none;" role="document">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3 id="solution-modal-title">Título da Solução</h3>
+          <span id="solution-modal-badge" class="solution-modal-header-badge badge-eco">Categoria</span>
+        </div>
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="Fechar janela">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="solution-modal-content">
+          <!-- 1. O que é -->
+          <div class="solution-detail-block">
+            <h4>📖 O que é:</h4>
+            <p id="solution-modal-whatis">-</p>
+          </div>
+
+          <!-- 2. Qual problema resolve -->
+          <div class="solution-detail-block">
+            <h4>🎯 Qual problema resolve:</h4>
+            <p id="solution-modal-whatsolves">-</p>
+          </div>
+
+          <!-- 3. Como a EcoClima utiliza essa solução -->
+          <div class="solution-detail-block">
+            <h4>⭐ Como a EcoClima utiliza essa solução:</h4>
+            <p id="solution-modal-howecoclima">-</p>
+          </div>
+
+          <!-- Destaques Técnicos -->
+          <div>
+            <h4 style="font-size: 0.92rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 8px;">Diferenciais Técnicos Garantidos:</h4>
+            <ul id="solution-modal-specs" style="list-style: none; display: flex; flex-direction: column; gap: 6px; font-size: 0.88rem; color: var(--text-secondary);">
+            </ul>
+          </div>
+
+          <!-- Ações Integradas Diretas -->
+          <div class="solution-modal-actions">
+            <button type="button" class="btn btn-primary" id="solution-modal-btn-quote" style="flex: 1;">
+              📋 Solicitar Orçamento Desta Solução
+            </button>
+            <button type="button" class="btn btn-outline" id="solution-modal-btn-schedule" style="flex: 1;">
+              📅 Agendar Análise Climática
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Script Oficial -->
+  <script src="js/app.js"></script>
+</body>
+</html>
